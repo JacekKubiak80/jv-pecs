@@ -7,7 +7,7 @@ import core.mate.academy.model.Truck;
 
 import java.util.List;
 
-public interface MachineProducer {
+public interface MachineProducer<Machine> {
     Bulldozer buldozer1 = new Bulldozer(15, "Hyundai", 26);
     Bulldozer buldozer2 = new Bulldozer(10, "JCB", 16);
     Bulldozer buldozer3 = new Bulldozer(12, "Caterpillar", 30);

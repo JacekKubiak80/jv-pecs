@@ -15,6 +15,33 @@ public class Excavator extends Machine {
         this.powerHorses = powerHorses;
     }
 
+    public int getYear() {
+        return year;
+    }
+
+    public Excavator setYear(int year) {
+        this.year = year;
+        return this;
+    }
+
+    public String getCountyOfProduction() {
+        return countyOfProduction;
+    }
+
+    public Excavator setCountyOfProduction(String countyOfProduction) {
+        this.countyOfProduction = countyOfProduction;
+        return this;
+    }
+
+    public int getPowerHorses() {
+        return powerHorses;
+    }
+
+    public Excavator setPowerHorses(int powerHorses) {
+        this.powerHorses = powerHorses;
+        return this;
+    }
+
     public Excavator() {
     }
 
